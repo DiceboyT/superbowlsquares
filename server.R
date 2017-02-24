@@ -33,7 +33,7 @@ server <- function(input, output) {
   })
   
   prob <- eventReactive(input$go,{
-    falcons <- "Win Probability"
+    prob <- "Win Probability"
   })
   
   output$patriots <- renderText(pats())
